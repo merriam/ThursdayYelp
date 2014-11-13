@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		487C103C1A1535290058EA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C103B1A1535290058EA47 /* AppDelegate.swift */; };
+		487C10411A1535290058EA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487C103F1A1535290058EA47 /* Main.storyboard */; };
+		487C10431A1535290058EA47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487C10421A1535290058EA47 /* Images.xcassets */; };
+		487C10461A1535290058EA47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487C10441A1535290058EA47 /* LaunchScreen.xib */; };
+		487C10521A15352A0058EA47 /* ThursdayYelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C10511A15352A0058EA47 /* ThursdayYelpTests.swift */; };
+		487C105C1A1535B80058EA47 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C105B1A1535B80058EA47 /* SearchResultsViewController.swift */; };
+		487C105E1A1535E40058EA47 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C105D1A1535E40058EA47 /* ReviewCell.swift */; };
+		487C10621A153D360058EA47 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C10611A153D360058EA47 /* Review.swift */; };
+		487C10641A1541D50058EA47 /* yelp1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 487C10631A1541D50058EA47 /* yelp1.jpg */; };
+		487C10661A1543700058EA47 /* yelp4stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 487C10651A1543700058EA47 /* yelp4stars.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		487C104C1A15352A0058EA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487C102E1A1535290058EA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 487C10351A1535290058EA47;
+			remoteInfo = ThursdayYelp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		487C10361A1535290058EA47 /* ThursdayYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThursdayYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		487C103A1A1535290058EA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487C103B1A1535290058EA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		487C10401A1535290058EA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		487C10421A1535290058EA47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		487C10451A1535290058EA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		487C104B1A15352A0058EA47 /* ThursdayYelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThursdayYelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		487C10501A15352A0058EA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487C10511A15352A0058EA47 /* ThursdayYelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThursdayYelpTests.swift; sourceTree = "<group>"; };
+		487C105B1A1535B80058EA47 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		487C105D1A1535E40058EA47 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		487C10611A153D360058EA47 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		487C10631A1541D50058EA47 /* yelp1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yelp1.jpg; sourceTree = "<group>"; };
+		487C10651A1543700058EA47 /* yelp4stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yelp4stars.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		487C10331A1535290058EA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487C10481A15352A0058EA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		487C102D1A1535290058EA47 = {
+			isa = PBXGroup;
+			children = (
+				487C10381A1535290058EA47 /* ThursdayYelp */,
+				487C104E1A15352A0058EA47 /* ThursdayYelpTests */,
+				487C10371A1535290058EA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		487C10371A1535290058EA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				487C10361A1535290058EA47 /* ThursdayYelp.app */,
+				487C104B1A15352A0058EA47 /* ThursdayYelpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		487C10381A1535290058EA47 /* ThursdayYelp */ = {
+			isa = PBXGroup;
+			children = (
+				487C10651A1543700058EA47 /* yelp4stars.png */,
+				487C103B1A1535290058EA47 /* AppDelegate.swift */,
+				487C10611A153D360058EA47 /* Review.swift */,
+				487C103F1A1535290058EA47 /* Main.storyboard */,
+				487C105B1A1535B80058EA47 /* SearchResultsViewController.swift */,
+				487C105D1A1535E40058EA47 /* ReviewCell.swift */,
+				487C10421A1535290058EA47 /* Images.xcassets */,
+				487C10631A1541D50058EA47 /* yelp1.jpg */,
+				487C10441A1535290058EA47 /* LaunchScreen.xib */,
+				487C10391A1535290058EA47 /* Supporting Files */,
+			);
+			path = ThursdayYelp;
+			sourceTree = "<group>";
+		};
+		487C10391A1535290058EA47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				487C103A1A1535290058EA47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		487C104E1A15352A0058EA47 /* ThursdayYelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				487C10511A15352A0058EA47 /* ThursdayYelpTests.swift */,
+				487C104F1A15352A0058EA47 /* Supporting Files */,
+			);
+			path = ThursdayYelpTests;
+			sourceTree = "<group>";
+		};
+		487C104F1A15352A0058EA47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				487C10501A15352A0058EA47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		487C10351A1535290058EA47 /* ThursdayYelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487C10551A15352A0058EA47 /* Build configuration list for PBXNativeTarget "ThursdayYelp" */;
+			buildPhases = (
+				487C10321A1535290058EA47 /* Sources */,
+				487C10331A1535290058EA47 /* Frameworks */,
+				487C10341A1535290058EA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThursdayYelp;
+			productName = ThursdayYelp;
+			productReference = 487C10361A1535290058EA47 /* ThursdayYelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		487C104A1A15352A0058EA47 /* ThursdayYelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487C10581A15352A0058EA47 /* Build configuration list for PBXNativeTarget "ThursdayYelpTests" */;
+			buildPhases = (
+				487C10471A15352A0058EA47 /* Sources */,
+				487C10481A15352A0058EA47 /* Frameworks */,
+				487C10491A15352A0058EA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				487C104D1A15352A0058EA47 /* PBXTargetDependency */,
+			);
+			name = ThursdayYelpTests;
+			productName = ThursdayYelpTests;
+			productReference = 487C104B1A15352A0058EA47 /* ThursdayYelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		487C102E1A1535290058EA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Charles Merriam";
+				TargetAttributes = {
+					487C10351A1535290058EA47 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					487C104A1A15352A0058EA47 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 487C10351A1535290058EA47;
+					};
+				};
+			};
+			buildConfigurationList = 487C10311A1535290058EA47 /* Build configuration list for PBXProject "ThursdayYelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 487C102D1A1535290058EA47;
+			productRefGroup = 487C10371A1535290058EA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				487C10351A1535290058EA47 /* ThursdayYelp */,
+				487C104A1A15352A0058EA47 /* ThursdayYelpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		487C10341A1535290058EA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487C10411A1535290058EA47 /* Main.storyboard in Resources */,
+				487C10461A1535290058EA47 /* LaunchScreen.xib in Resources */,
+				487C10431A1535290058EA47 /* Images.xcassets in Resources */,
+				487C10641A1541D50058EA47 /* yelp1.jpg in Resources */,
+				487C10661A1543700058EA47 /* yelp4stars.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487C10491A15352A0058EA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487C10321A1535290058EA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487C105E1A1535E40058EA47 /* ReviewCell.swift in Sources */,
+				487C10621A153D360058EA47 /* Review.swift in Sources */,
+				487C105C1A1535B80058EA47 /* SearchResultsViewController.swift in Sources */,
+				487C103C1A1535290058EA47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487C10471A15352A0058EA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487C10521A15352A0058EA47 /* ThursdayYelpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		487C104D1A15352A0058EA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 487C10351A1535290058EA47 /* ThursdayYelp */;
+			targetProxy = 487C104C1A15352A0058EA47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		487C103F1A1535290058EA47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487C10401A1535290058EA47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		487C10441A1535290058EA47 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487C10451A1535290058EA47 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		487C10531A15352A0058EA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		487C10541A15352A0058EA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		487C10561A15352A0058EA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThursdayYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		487C10571A15352A0058EA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThursdayYelp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		487C10591A15352A0058EA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThursdayYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThursdayYelp.app/ThursdayYelp";
+			};
+			name = Debug;
+		};
+		487C105A1A15352A0058EA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThursdayYelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThursdayYelp.app/ThursdayYelp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		487C10311A1535290058EA47 /* Build configuration list for PBXProject "ThursdayYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487C10531A15352A0058EA47 /* Debug */,
+				487C10541A15352A0058EA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487C10551A15352A0058EA47 /* Build configuration list for PBXNativeTarget "ThursdayYelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487C10561A15352A0058EA47 /* Debug */,
+				487C10571A15352A0058EA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487C10581A15352A0058EA47 /* Build configuration list for PBXNativeTarget "ThursdayYelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487C10591A15352A0058EA47 /* Debug */,
+				487C105A1A15352A0058EA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 487C102E1A1535290058EA47 /* Project object */;
+}
