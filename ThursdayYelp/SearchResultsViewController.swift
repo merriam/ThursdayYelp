@@ -21,6 +21,13 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource,UITab
         client.searchWithTerm("Thai", success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
             println(response)
             //println(response.count)
+            //parse our output into our Review array
+            for i in response.count {
+                var review = Review.newReview(response.....)
+                
+                reviews.append(review)
+            }
+            
             }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
                 println(error)
         }
