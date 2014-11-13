@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E2DE6263-FB5A-45C5-8C6F-9131C4EC6CD4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ThursdayYelp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E3D394D517BB0477A5BF834F566A9ADF6877838</key>
+		<string>github.com:merriam/ThursdayYelp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ThursdayYelp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E3D394D517BB0477A5BF834F566A9ADF6877838</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:merriam/ThursdayYelp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0E3D394D517BB0477A5BF834F566A9ADF6877838</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E3D394D517BB0477A5BF834F566A9ADF6877838</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ThursdayYelp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
