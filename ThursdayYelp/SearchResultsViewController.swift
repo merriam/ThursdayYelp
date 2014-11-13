@@ -10,10 +10,22 @@ import UIKit
 
 class SearchResultsViewController: UIViewController, UITableViewDataSource,UITableViewDelegate  {
     
-    
+        var client: YelpClient!
+  
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        client = YelpClient()
+        
+        client.searchWithTerm("Thai", success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
+            println(response)
+            //println(response.count)
+            }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
+                println(error)
+        }
+        
+        
 
         // Do any additional setup after loading the view.
     }

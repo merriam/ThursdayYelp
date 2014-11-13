@@ -8,6 +8,8 @@
 
 import UIKit
 
+var reviews: [Review] = []
+
 class Review: NSObject {
     var rest, address, category, distance : String?
     var numReviews, dollars : Int?
