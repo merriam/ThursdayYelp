@@ -30,7 +30,7 @@ class ReviewCell: UITableViewCell {
     }
         
     func set(review : Review, indexPath : NSIndexPath) {
-        rest.text =  "\(indexPath.row+1).  \(review.rest)"
+        rest.text =  "\(indexPath.row+1).  \(review.name)"
         numReviews.text = "\(review.numReviews) Reviews"
         distance.text = review.distance
         dollars.text = "$$$$$$".substringToIndex(review.dollars)

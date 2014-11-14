@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4807F52A1A15BBCF00BD41DD /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4807F5291A15BBCF00BD41DD /* YelpClient.swift */; };
+		485A723B1A15B810004C18DE /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C105D1A1535E40058EA47 /* ReviewCell.swift */; };
 		487C103C1A1535290058EA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C103B1A1535290058EA47 /* AppDelegate.swift */; };
 		487C10411A1535290058EA47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487C103F1A1535290058EA47 /* Main.storyboard */; };
 		487C10431A1535290058EA47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487C10421A1535290058EA47 /* Images.xcassets */; };
 		487C10461A1535290058EA47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487C10441A1535290058EA47 /* LaunchScreen.xib */; };
 		487C10521A15352A0058EA47 /* ThursdayYelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C10511A15352A0058EA47 /* ThursdayYelpTests.swift */; };
 		487C105C1A1535B80058EA47 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C105B1A1535B80058EA47 /* SearchResultsViewController.swift */; };
-		487C105E1A1535E40058EA47 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C105D1A1535E40058EA47 /* ReviewCell.swift */; };
 		487C10621A153D360058EA47 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C10611A153D360058EA47 /* Review.swift */; };
 		487C10641A1541D50058EA47 /* yelp1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 487C10631A1541D50058EA47 /* yelp1.jpg */; };
 		487C10661A1543700058EA47 /* yelp4stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 487C10651A1543700058EA47 /* yelp4stars.png */; };
 		AB7902D1F0F15580CD8F3804 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC8BD91B0C89BE843E6D38E /* libPods.a */; };
-		D0DFE2D71A154B1A00FE39C0 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DFE2D61A154B1A00FE39C0 /* YelpClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		3BC8BD91B0C89BE843E6D38E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4807F5291A15BBCF00BD41DD /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		4807F52D1A15C43D00BD41DD /* ThursdayYelp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ThursdayYelp-Bridging-Header.h"; sourceTree = "<group>"; };
 		487C10361A1535290058EA47 /* ThursdayYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThursdayYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		487C103A1A1535290058EA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		487C103B1A1535290058EA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,8 +49,6 @@
 		487C10611A153D360058EA47 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		487C10631A1541D50058EA47 /* yelp1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yelp1.jpg; sourceTree = "<group>"; };
 		487C10651A1543700058EA47 /* yelp4stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yelp4stars.png; sourceTree = "<group>"; };
-		D0CBD38E1A154A2A00752EFF /* ThursdayYelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThursdayYelp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		D0DFE2D61A154B1A00FE39C0 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 		E067C2418FA5B617CEE483C1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E4A5A4BE7ADBC1D1BA0B636E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +103,7 @@
 		487C10381A1535290058EA47 /* ThursdayYelp */ = {
 			isa = PBXGroup;
 			children = (
+				4807F52D1A15C43D00BD41DD /* ThursdayYelp-Bridging-Header.h */,
 				487C10651A1543700058EA47 /* yelp4stars.png */,
 				487C103B1A1535290058EA47 /* AppDelegate.swift */,
 				D0DFE2D91A154EA000FE39C0 /* Model */,
@@ -112,7 +113,6 @@
 				487C105D1A1535E40058EA47 /* ReviewCell.swift */,
 				487C10421A1535290058EA47 /* Images.xcassets */,
 				487C10631A1541D50058EA47 /* yelp1.jpg */,
-				D0CBD38E1A154A2A00752EFF /* ThursdayYelp-Bridging-Header.h */,
 				487C10441A1535290058EA47 /* LaunchScreen.xib */,
 				487C10391A1535290058EA47 /* Supporting Files */,
 			);
@@ -156,7 +156,7 @@
 		D0DFE2D81A154BED00FE39C0 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				D0DFE2D61A154B1A00FE39C0 /* YelpClient.swift */,
+				4807F5291A15BBCF00BD41DD /* YelpClient.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -306,8 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0DFE2D71A154B1A00FE39C0 /* YelpClient.swift in Sources */,
-				487C105E1A1535E40058EA47 /* ReviewCell.swift in Sources */,
+				4807F52A1A15BBCF00BD41DD /* YelpClient.swift in Sources */,
+				485A723B1A15B810004C18DE /* ReviewCell.swift in Sources */,
 				487C10621A153D360058EA47 /* Review.swift in Sources */,
 				487C105C1A1535B80058EA47 /* SearchResultsViewController.swift in Sources */,
 				487C103C1A1535290058EA47 /* AppDelegate.swift in Sources */,

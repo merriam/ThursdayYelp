@@ -32,4 +32,10 @@ class YelpClient: BDBOAuth1RequestOperationManager {
         var parameters = ["term": term, "location": "San Francisco"]
         return self.GET("search", parameters: parameters, success: success, failure: failure)
     }
+    
+    func reviewFromRawReview(raw: NSDictionary) -> Review {
+        var review = Review.dummy()
+        review.name = raw["name"]! as String
+        return review
+    }    
 }

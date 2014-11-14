@@ -11,16 +11,17 @@ import UIKit
 var reviews: [Review] = []
 
 class Review: NSObject {
-    var rest, address, category, distance : String
+    var name, address, category, distance : String
     var numReviews, dollars : Int
     
-    init(rest: String, address: String, numReviews: Int, dollars: Int, distance : String, category: String) {
-        self.rest = rest
+    init(name: String, address: String, numReviews: Int, dollars: Int, distance : String, category: String) {
+        self.name = name
         self.address = address
         self.category = category
         self.distance = distance
         self.numReviews = numReviews
         self.dollars = dollars
+        super.init()
     }
     
     class func dummy() -> Review {

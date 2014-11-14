@@ -12,24 +12,25 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource,UITab
     
         var client: YelpClient!
   
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         client = YelpClient()
         
         client.searchWithTerm("Thai", success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
+            // response is dictionary with 'businesses' being an array of dictionaries.
             println(response)
-            println(response.count)
-            //parse our output into our Review array
-            /*
-            for i in response.count {
-                var review = Review.init()
-                var review = Review.newReview(response.....)
-                
+            println("========")
+            reviews = []
+            let rawReviews = ((response as NSDictionary)["businesses"]!) as NSArray
+            for r in rawReviews {
+                let raw = r as NSDictionary
+                var review = self.client.reviewFromRawReview(raw)
                 reviews.append(review)
             }
-            */
+                
+            
             }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
                 println(error)
         }

@@ -6,33 +6,33 @@
 	<dict>
 		<key>Pods-AFNetworking.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-BDBOAuth1Manager.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7DE6127072A678CFEC300015</key>
+		<key>0E5E9036506742329C05D0AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B594CF3542429A7C233FAEC3</key>
+		<key>5AFB5686E90A4E8C51F186FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F9C24ECC0D5C56AE92A8EEE0</key>
+		<key>A26F9BE7D54A079107550EB4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
