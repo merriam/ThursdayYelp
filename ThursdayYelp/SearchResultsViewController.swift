@@ -16,7 +16,7 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource,UITab
         super.viewDidLoad()
         let client = theYelpClient
 
-        client.searchWithTerm("Thai", success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
+        client.searchWithTerm("Restaurant", success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
             // response is dictionary with 'businesses' being an array of dictionaries.
             //println(response)
             theReviews = []  // remove old review list

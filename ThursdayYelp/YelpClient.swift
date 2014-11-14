@@ -39,14 +39,17 @@ class YelpClient: BDBOAuth1RequestOperationManager {
         var review = Review.dummy()
         review.name = raw["name"]! as String
         // print("name \(review.name)")
-        var categories : [String] = (raw["categories"] as [[String]])[0]
-        review.category = ", ".join(categories)  // handle uniq?
+
+        // ["categories"] is array of array of strings, each array of strings is [human name, search tag] of one category.
+        var category_list : [[String]] = raw["categories"] as [[String]]
+        let categories = category_list.map { (var cats) -> String in return cats[0]; }
+        review.category = ", ".join(categories)
+
         var image_url = NSURL(string: raw["image_url"] as String)
         var addresses = (raw["location"] as NSDictionary)["display_address"] as [String]
         review.address = ", ".join(addresses)
         review.numReviews = raw["review_count"] as Int
-        review.rating = raw["rating"] as Float        
-        
+        review.rating = raw["rating"] as Float
         
         return review
     }    
