@@ -35,6 +35,19 @@ class YelpClient: BDBOAuth1RequestOperationManager {
         return self.GET("search", parameters: parameters, success: success, failure: failure)
     }
     
+    func reviewsFromRawResponse(response: NSDictionary) -> [Review] {
+        // response is dictionary, with 'businesses' being an array of dictionaries.
+        // that is, response[businesses] = [raw_review]
+        var reviews : [Review] = []
+        let rawReviews = response["businesses"]! as NSArray
+        for r in rawReviews {
+            let raw = r as NSDictionary
+            var review = reviewFromRawReview(raw)
+            reviews.append(review)
+        }
+        return reviews
+    }
+
     func reviewFromRawReview(raw: NSDictionary) -> Review {
         var review = Review.dummy()
         review.name = raw["name"]! as String
@@ -42,7 +55,8 @@ class YelpClient: BDBOAuth1RequestOperationManager {
 
         // ["categories"] is array of array of strings, each array of strings is [human name, search tag] of one category.
         var category_list : [[String]] = raw["categories"] as [[String]]
-        let categories = category_list.map { (var cats) -> String in return cats[0]; }
+        // let categories = category_list.map { (var cats) -> String in return cats[0]; }
+        let categories = category_list.map { $0[0] }  // more concise
         review.category = ", ".join(categories)
 
         var image_url = NSURL(string: raw["image_url"] as String)

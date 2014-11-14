@@ -17,15 +17,8 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource,UITab
         let client = theYelpClient
 
         client.searchWithTerm("Restaurant", success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
-            // response is dictionary with 'businesses' being an array of dictionaries.
             //println(response)
-            theReviews = []  // remove old review list
-            let rawReviews = ((response as NSDictionary)["businesses"]!) as NSArray
-            for r in rawReviews {
-                let raw = r as NSDictionary
-                var review = client.reviewFromRawReview(raw)
-                theReviews.append(review)
-            }
+            theReviews = client.reviewsFromRawResponse(response as NSDictionary) // replace old review list with loaded values
             self.tableView.reloadData()
             }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
                 println(error)
