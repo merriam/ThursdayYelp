@@ -10,34 +10,26 @@ import UIKit
 
 class SearchResultsViewController: UIViewController, UITableViewDataSource,UITableViewDelegate  {
     
-        var client: YelpClient!
-  
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        client = YelpClient()
-        
+        let client = theYelpClient
+
         client.searchWithTerm("Thai", success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
             // response is dictionary with 'businesses' being an array of dictionaries.
-            println(response)
-            println("========")
-            reviews = []
+            //println(response)
+            theReviews = []  // remove old review list
             let rawReviews = ((response as NSDictionary)["businesses"]!) as NSArray
             for r in rawReviews {
                 let raw = r as NSDictionary
-                var review = self.client.reviewFromRawReview(raw)
-                reviews.append(review)
+                var review = client.reviewFromRawReview(raw)
+                theReviews.append(review)
             }
-                
-            
+            self.tableView.reloadData()
             }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
                 println(error)
         }
-        
-        
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,12 +38,12 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource,UITab
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 25
+        return theReviews.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("review") as ReviewCell
-        var review = Review.dummy()
+        var review = theReviews[indexPath.row]
         cell.set(review, indexPath: indexPath)
         
         return cell

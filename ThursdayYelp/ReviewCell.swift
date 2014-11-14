@@ -9,9 +9,7 @@
 import UIKit
 
 class ReviewCell: UITableViewCell {
-    @IBOutlet weak var theText: UILabel!
-
-    @IBOutlet weak var rest: UILabel!
+    @IBOutlet weak var name: UILabel!
     @IBOutlet weak var numReviews: UILabel!
     @IBOutlet weak var distance: UILabel!
     @IBOutlet weak var dollars: UILabel!
@@ -30,10 +28,8 @@ class ReviewCell: UITableViewCell {
     }
         
     func set(review : Review, indexPath : NSIndexPath) {
-        rest.text =  "\(indexPath.row+1).  \(review.name)"
+        name.text =  "\(indexPath.row+1).  \(review.name)"
         numReviews.text = "\(review.numReviews) Reviews"
-        distance.text = review.distance
-        dollars.text = "$$$$$$".substringToIndex(review.dollars)
         address.text = review.address
         category.text = review.category
         

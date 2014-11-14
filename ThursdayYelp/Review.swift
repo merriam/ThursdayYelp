@@ -8,29 +8,32 @@
 
 import UIKit
 
-var reviews: [Review] = []
+var theReviews: [Review] = []
 
 class Review: NSObject {
-    var name, address, category, distance : String
-    var numReviews, dollars : Int
+    var name, address, category: String
+    var numReviews : Int
+    var rating : Float
+    var image_url : NSURL
     
-    init(name: String, address: String, numReviews: Int, dollars: Int, distance : String, category: String) {
+    
+    init(name: String, address: String, numReviews: Int, category: String, rating : Float, image_url_string : String) {
         self.name = name
         self.address = address
         self.category = category
-        self.distance = distance
         self.numReviews = numReviews
-        self.dollars = dollars
+        self.rating = rating
+        self.image_url = NSURL(string: image_url_string)!
         super.init()
     }
     
     class func dummy() -> Review {
-        return Review(rest: "Grand Pu Bah",
+        return Review(name: "Grand Pu Bah",
             address: " 88 Division St.  Mission Bay",
             numReviews: 469,
-            dollars: 2,
-            distance: "0.07 mi",
-            category: "Thai, Seafood, Salad")
+            category: "Thai, Seafood, Salad",
+            rating: 3.5,
+            image_url_string :  "http://s3-media2.fl.yelpcdn.com/photo/u0-tGrv-LjYBhCIZgNWeBA/ms.jpg")
     }
   
 }

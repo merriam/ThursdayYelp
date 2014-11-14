@@ -8,6 +8,8 @@
 
 import UIKit
 
+var theYelpClient = YelpClient()
+
 class YelpClient: BDBOAuth1RequestOperationManager {
     // our Yelp keys
     let yelpConsumerKey = "WxM1ynG7wdd032qyipfagQ"
@@ -36,6 +38,16 @@ class YelpClient: BDBOAuth1RequestOperationManager {
     func reviewFromRawReview(raw: NSDictionary) -> Review {
         var review = Review.dummy()
         review.name = raw["name"]! as String
+        // print("name \(review.name)")
+        var categories : [String] = (raw["categories"] as [[String]])[0]
+        review.category = ", ".join(categories)  // handle uniq?
+        var image_url = NSURL(string: raw["image_url"] as String)
+        var addresses = (raw["location"] as NSDictionary)["display_address"] as [String]
+        review.address = ", ".join(addresses)
+        review.numReviews = raw["review_count"] as Int
+        review.rating = raw["rating"] as Float        
+        
+        
         return review
     }    
 }
