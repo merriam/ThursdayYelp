@@ -20,14 +20,16 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource,UITab
         
         client.searchWithTerm("Thai", success: { (operation: AFHTTPRequestOperation!, response: AnyObject!) -> Void in
             println(response)
-            //println(response.count)
+            println(response.count)
             //parse our output into our Review array
+            /*
             for i in response.count {
+                var review = Review.init()
                 var review = Review.newReview(response.....)
                 
                 reviews.append(review)
             }
-            
+            */
             }) { (operation: AFHTTPRequestOperation!, error: NSError!) -> Void in
                 println(error)
         }
@@ -48,7 +50,7 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource,UITab
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("review") as ReviewCell
-        var review = Review().setDummy()
+        var review = Review.dummy()
         cell.set(review, indexPath: indexPath)
         
         return cell

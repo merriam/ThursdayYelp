@@ -28,14 +28,14 @@ class ReviewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+        
     func set(review : Review, indexPath : NSIndexPath) {
-        rest.text =  "\(indexPath.row+1).  \(review.rest!)"
-        numReviews.text = "\(review.numReviews!) Reviews"
-        distance.text = review.distance!
-        dollars.text = "$$$$$$".substringToIndex(review.dollars!)
-        address.text = review.address!
-        category.text = review.category!
+        rest.text =  "\(indexPath.row+1).  \(review.rest)"
+        numReviews.text = "\(review.numReviews) Reviews"
+        distance.text = review.distance
+        dollars.text = "$$$$$$".substringToIndex(review.dollars)
+        address.text = review.address
+        category.text = review.category
         
     }
 
