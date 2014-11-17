@@ -16,10 +16,15 @@ class YelpClient: BDBOAuth1RequestOperationManager {
     let yelpConsumerSecret = "8lrED6F1gWOb1XSwr3FfkSbeNX8"
     let yelpToken = "J89lj9umCgqWyfByF6E6QsoTEZA01ejv"
     let yelpTokenSecret = "Q82qHm43iwDe-2ECP6du7NplfRk"
+   
+    // this initializer is listed as required; it must be implemented.  But really it doesn't.  The
+    // 'required' keyword is a red herring and it just means that it could be implemented without using
+    // the 'override' keyword.  But it does.   Swift is confusing.
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
+
     
     override init() {
         var baseUrl = NSURL(string: "http://api.yelp.com/v2/")
