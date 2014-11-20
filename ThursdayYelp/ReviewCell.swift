@@ -15,6 +15,8 @@ class ReviewCell: UITableViewCell {
     @IBOutlet weak var dollars: UILabel!
     @IBOutlet weak var address: UILabel!
     @IBOutlet weak var category: UILabel!
+    @IBOutlet weak var thumbnail: UIImageView!
+    @IBOutlet weak var stars: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -32,7 +34,13 @@ class ReviewCell: UITableViewCell {
         numReviews.text = "\(review.numReviews) Reviews"
         address.text = review.address
         category.text = review.category
+        thumbnail.setImageWithURL(review.image_url)
         
+        let starName : String = "star\(String(Int(review.rating * 10)))"
+        let bundle = NSBundle.mainBundle()
+        let fullPath = bundle.pathForResource(starName, ofType: "png")!
+        let starURL = NSURL(fileURLWithPath: fullPath)
+        stars.setImageWithURL(starURL)
     }
 
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EaL-vB-7MX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="EaL-vB-7MX">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -65,6 +65,8 @@
                                             <outlet property="category" destination="Tea-F5-5BT" id="LvF-mJ-wRF"/>
                                             <outlet property="name" destination="0Rp-Lh-4A4" id="b0h-Do-y5n"/>
                                             <outlet property="numReviews" destination="3RD-93-Iyr" id="xrV-wU-RRg"/>
+                                            <outlet property="stars" destination="t0F-ZV-mb9" id="1vM-D0-vrX"/>
+                                            <outlet property="thumbnail" destination="GTb-X5-e9D" id="Y7Z-Ou-YZj"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

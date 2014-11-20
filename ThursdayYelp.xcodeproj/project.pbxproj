@@ -9,16 +9,22 @@
 /* Begin PBXBuildFile section */
 		0B0D1D11244F2D0557429362 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC8BD91B0C89BE843E6D38E /* libPods.a */; };
 		4807F52A1A15BBCF00BD41DD /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4807F5291A15BBCF00BD41DD /* YelpClient.swift */; };
-		482B65F81A169E4600C98D86 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 482B65F71A169E4600C98D86 /* ReadMe.md */; };
+		4846431F1A1D32C0006B4277 /* star10.png in Resources */ = {isa = PBXBuildFile; fileRef = 484643131A1D32C0006B4277 /* star10.png */; };
+		484643201A1D32C0006B4277 /* star15.png in Resources */ = {isa = PBXBuildFile; fileRef = 484643141A1D32C0006B4277 /* star15.png */; };
+		484643211A1D32C0006B4277 /* star20.png in Resources */ = {isa = PBXBuildFile; fileRef = 484643151A1D32C0006B4277 /* star20.png */; };
+		484643221A1D32C0006B4277 /* star25.png in Resources */ = {isa = PBXBuildFile; fileRef = 484643161A1D32C0006B4277 /* star25.png */; };
+		484643231A1D32C0006B4277 /* star30.png in Resources */ = {isa = PBXBuildFile; fileRef = 484643171A1D32C0006B4277 /* star30.png */; };
+		484643241A1D32C0006B4277 /* star35.png in Resources */ = {isa = PBXBuildFile; fileRef = 484643181A1D32C0006B4277 /* star35.png */; };
+		484643251A1D32C0006B4277 /* star40.png in Resources */ = {isa = PBXBuildFile; fileRef = 484643191A1D32C0006B4277 /* star40.png */; };
+		484643261A1D32C0006B4277 /* star45.png in Resources */ = {isa = PBXBuildFile; fileRef = 4846431A1A1D32C0006B4277 /* star45.png */; };
+		484643271A1D32C0006B4277 /* star50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4846431B1A1D32C0006B4277 /* star50.png */; };
 		485A723B1A15B810004C18DE /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C105D1A1535E40058EA47 /* ReviewCell.swift */; };
 		487C103C1A1535290058EA47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C103B1A1535290058EA47 /* AppDelegate.swift */; };
-		487C10431A1535290058EA47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487C10421A1535290058EA47 /* Images.xcassets */; };
 		487C10461A1535290058EA47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487C10441A1535290058EA47 /* LaunchScreen.xib */; };
 		487C10521A15352A0058EA47 /* ThursdayYelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C10511A15352A0058EA47 /* ThursdayYelpTests.swift */; };
 		487C105C1A1535B80058EA47 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C105B1A1535B80058EA47 /* SearchResultsViewController.swift */; };
 		487C10621A153D360058EA47 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C10611A153D360058EA47 /* Review.swift */; };
 		487C10641A1541D50058EA47 /* yelp1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 487C10631A1541D50058EA47 /* yelp1.jpg */; };
-		487C10661A1543700058EA47 /* yelp4stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 487C10651A1543700058EA47 /* yelp4stars.png */; };
 		48D03C481A15CFD10072DAE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487C103F1A1535290058EA47 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -35,13 +41,20 @@
 /* Begin PBXFileReference section */
 		3BC8BD91B0C89BE843E6D38E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4807F5291A15BBCF00BD41DD /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
-		4807F52D1A15C43D00BD41DD /* ThursdayYelp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ThursdayYelp-Bridging-Header.h"; sourceTree = "<group>"; };
-		482B65F71A169E4600C98D86 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		4839EA3E1A1B058D0042118F /* ThursdayYelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThursdayYelp-Bridging-Header.h"; sourceTree = "<group>"; };
+		484643131A1D32C0006B4277 /* star10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star10.png; sourceTree = "<group>"; };
+		484643141A1D32C0006B4277 /* star15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star15.png; sourceTree = "<group>"; };
+		484643151A1D32C0006B4277 /* star20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star20.png; sourceTree = "<group>"; };
+		484643161A1D32C0006B4277 /* star25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star25.png; sourceTree = "<group>"; };
+		484643171A1D32C0006B4277 /* star30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star30.png; sourceTree = "<group>"; };
+		484643181A1D32C0006B4277 /* star35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star35.png; sourceTree = "<group>"; };
+		484643191A1D32C0006B4277 /* star40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star40.png; sourceTree = "<group>"; };
+		4846431A1A1D32C0006B4277 /* star45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star45.png; sourceTree = "<group>"; };
+		4846431B1A1D32C0006B4277 /* star50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star50.png; sourceTree = "<group>"; };
 		487C10361A1535290058EA47 /* ThursdayYelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThursdayYelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		487C103A1A1535290058EA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		487C103B1A1535290058EA47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		487C10401A1535290058EA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		487C10421A1535290058EA47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		487C10451A1535290058EA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		487C104B1A15352A0058EA47 /* ThursdayYelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThursdayYelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		487C10501A15352A0058EA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,7 +63,6 @@
 		487C105D1A1535E40058EA47 /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		487C10611A153D360058EA47 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		487C10631A1541D50058EA47 /* yelp1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yelp1.jpg; sourceTree = "<group>"; };
-		487C10651A1543700058EA47 /* yelp4stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yelp4stars.png; sourceTree = "<group>"; };
 		E067C2418FA5B617CEE483C1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E4A5A4BE7ADBC1D1BA0B636E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,10 +94,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4846431D1A1D32C0006B4277 /* Stars */ = {
+			isa = PBXGroup;
+			children = (
+				484643131A1D32C0006B4277 /* star10.png */,
+				484643141A1D32C0006B4277 /* star15.png */,
+				484643151A1D32C0006B4277 /* star20.png */,
+				484643161A1D32C0006B4277 /* star25.png */,
+				484643171A1D32C0006B4277 /* star30.png */,
+				484643181A1D32C0006B4277 /* star35.png */,
+				484643191A1D32C0006B4277 /* star40.png */,
+				4846431A1A1D32C0006B4277 /* star45.png */,
+				4846431B1A1D32C0006B4277 /* star50.png */,
+			);
+			path = Stars;
+			sourceTree = "<group>";
+		};
 		487C102D1A1535290058EA47 = {
 			isa = PBXGroup;
 			children = (
-				482B65F71A169E4600C98D86 /* ReadMe.md */,
 				487C10381A1535290058EA47 /* ThursdayYelp */,
 				487C104E1A15352A0058EA47 /* ThursdayYelpTests */,
 				487C10371A1535290058EA47 /* Products */,
@@ -106,18 +133,17 @@
 		487C10381A1535290058EA47 /* ThursdayYelp */ = {
 			isa = PBXGroup;
 			children = (
-				4807F52D1A15C43D00BD41DD /* ThursdayYelp-Bridging-Header.h */,
-				487C10651A1543700058EA47 /* yelp4stars.png */,
+				4846431D1A1D32C0006B4277 /* Stars */,
 				487C103B1A1535290058EA47 /* AppDelegate.swift */,
 				487C10611A153D360058EA47 /* Review.swift */,
 				4807F5291A15BBCF00BD41DD /* YelpClient.swift */,
 				487C103F1A1535290058EA47 /* Main.storyboard */,
 				487C105B1A1535B80058EA47 /* SearchResultsViewController.swift */,
 				487C105D1A1535E40058EA47 /* ReviewCell.swift */,
-				487C10421A1535290058EA47 /* Images.xcassets */,
 				487C10631A1541D50058EA47 /* yelp1.jpg */,
 				487C10441A1535290058EA47 /* LaunchScreen.xib */,
 				487C10391A1535290058EA47 /* Supporting Files */,
+				4839EA3E1A1B058D0042118F /* ThursdayYelp-Bridging-Header.h */,
 			);
 			path = ThursdayYelp;
 			sourceTree = "<group>";
@@ -239,10 +265,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				487C10461A1535290058EA47 /* LaunchScreen.xib in Resources */,
+				484643251A1D32C0006B4277 /* star40.png in Resources */,
+				484643231A1D32C0006B4277 /* star30.png in Resources */,
+				484643211A1D32C0006B4277 /* star20.png in Resources */,
+				4846431F1A1D32C0006B4277 /* star10.png in Resources */,
 				48D03C481A15CFD10072DAE3 /* Main.storyboard in Resources */,
-				487C10431A1535290058EA47 /* Images.xcassets in Resources */,
 				487C10641A1541D50058EA47 /* yelp1.jpg in Resources */,
-				487C10661A1543700058EA47 /* yelp4stars.png in Resources */,
+				484643261A1D32C0006B4277 /* star45.png in Resources */,
+				484643271A1D32C0006B4277 /* star50.png in Resources */,
+				484643221A1D32C0006B4277 /* star25.png in Resources */,
+				484643201A1D32C0006B4277 /* star15.png in Resources */,
+				484643241A1D32C0006B4277 /* star35.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +328,6 @@
 			files = (
 				4807F52A1A15BBCF00BD41DD /* YelpClient.swift in Sources */,
 				485A723B1A15B810004C18DE /* ReviewCell.swift in Sources */,
-				482B65F81A169E4600C98D86 /* ReadMe.md in Sources */,
 				487C10621A153D360058EA47 /* Review.swift in Sources */,
 				487C105C1A1535B80058EA47 /* SearchResultsViewController.swift in Sources */,
 				487C103C1A1535290058EA47 /* AppDelegate.swift in Sources */,
@@ -426,7 +458,8 @@
 				INFOPLIST_FILE = ThursdayYelp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ThursdayYelp-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ThursdayYelp/ThursdayYelp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -440,7 +473,8 @@
 				INFOPLIST_FILE = ThursdayYelp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ThursdayYelp-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "ThursdayYelp/ThursdayYelp-Bridging-Header.h";
 			};
 			name = Release;
 		};
